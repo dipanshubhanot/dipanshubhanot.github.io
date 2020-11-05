@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>HAN and SVM, Twitter Dataset</title>
+  <title>Sudoku Solver - Algo X</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,8 +29,15 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/f357fe23d3.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f357fe23d3.js" crossorigin="anonymous"></script>
+
+  <!-- MathJAX -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+
   <!-- =======================================================
   * Template Name: Personal - v2.3.0
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -48,26 +57,38 @@
         <div class="row">
 
           <div class="col-lg-8">
-            <h2 class="portfolio-title">Heirarchial Attention Networks and Support Vector Machines</h2>
+            <h2 class="portfolio-title">Sudoku Solver in Java using Algorithm X & Dancing Links</h2>
             <div class="owl-carousel portfolio-details-carousel">
-              <img src="assets/img/portfolio/HAN-2x.png" class="img-fluid" alt="">
-              <img src="assets/img/portfolio/HAN-2.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/ss-1-2x.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/ss-2-3x.png" class="img-fluid" alt="">
               <!-- <img src="assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt=""> -->
             </div>
           </div>
-            
+
           <div class="col-lg-4 portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Machine Learning / Deep Learning</li>
-              <li><strong>Project date</strong>: October 28, 2020</li>
-              <li><strong>View on GitHub</strong>: <a href="https://github.com/mashkovic/HAN-and-SVM"><i
+              <li><strong>Category</strong>: Algorithms &amp; Data Structures / Software Development</li>
+              <li><strong>Project date</strong>: July 6-10, 2020</li>
+              <!-- <li><strong><a href="https://firebusters-fireless.web.app">Live Demo</a></strong></li> -->
+              <li><strong>Algorithm X </strong> : <a
+                  href="https://www.ocf.berkeley.edu/~jchu/publicportal/sudoku/0011047.pdf">Donald E. Knuth, Stanford
+                  Universitys</a></li>
+              <li><strong>View on GitHub</strong>: <a href="https://github.com/dipanshubhanot/SudokuAlgoXJava"><i
                     class="fab fa-github"></i></a></li>
             </ul>
 
+            <p>Dancing Links are a modification of doubly-linked lists, essentially making them quadruply linked lists,
+              which display their importance in the exact cover
+              problem. In this project, I have tried to take the problem of Solving Sudoku and model it as an exact
+              cover problem in Java.</p>
             <p>
-              Heirarchial Attention Networks as described by <a href="https://arxiv.org/abs/2006.00377">Deutsch et al. 2020</a> consist of 2 seperate Recurrent Neural Networks. <br>
-              This project was in relation to <a href="">Mashrur Hayder's Minor Thesis</a>. The aim was to adapt the code provided by <a href="">Deutsch et al.</a> to emulate second language learners' process of understanding English by training it on a dataset consisting of tweets.
+              The predominant way of solving sudoku is using a method known as backtracking, a simple technique which
+              emulates how a human would solve the problem. However, it is highly inefficient and has $$ O(n^2) $$ But
+              with Knuth's algorithm, the complexity is shaved considerably down to almost $$ O(n) $$
+            </p>
+            <p>
+              Please note that the exact cover problem is NP-complete.
             </p>
           </div>
 
