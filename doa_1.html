@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sudoku Solver - Algo X</title>
+  <title>Shadow Defend - SWEN20003 Sem 1, 2020</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -57,10 +57,11 @@
         <div class="row">
 
           <div class="col-lg-8">
-            <h2 class="portfolio-title">Sudoku Solver in Java using Algorithm X & Dancing Links</h2>
+            <h2 class="portfolio-title">Can I visit all nodes? - COMP20007 Sem 1, 2020</h2>
             <div class="owl-carousel portfolio-details-carousel">
-              <img src="assets/img/portfolio/ss-1-2x.png" class="img-fluid" alt="">
-              <img src="assets/img/portfolio/ss-2-3x.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/doa-1-main.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/doa-1-1.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/doa-1-2.png" class="img-fluid" alt="">
               <!-- <img src="assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt=""> -->
             </div>
           </div>
@@ -68,28 +69,52 @@
           <div class="col-lg-4 portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Algorithms &amp; Data Structures / Software Development</li>
-              <li><strong>Project date</strong>: July 6-10, 2020</li>
+              <li><strong>Disclaimer</strong>: The project specifications, the graphics and the library
+                <code>bagel</code> belong to the Faculty of COMP20007: Design of Algorithms, Sem1,2020
+                at the University of Melbourne</li>
+              <li><strong>Category</strong>: University of Melbourne / Algorithms &amp; Data Structures</li>
+              <li><strong>Project date</strong>: April 6-8, 2020</li>
               <!-- <li><strong><a href="https://firebusters-fireless.web.app">Live Demo</a></strong></li> -->
-              <li><strong>Algorithm X </strong> : <a
-                  href="https://www.ocf.berkeley.edu/~jchu/publicportal/sudoku/0011047.pdf">Donald E. Knuth, Stanford
-                  Universitys</a></li>
-              <li><strong>View on GitHub</strong>: <a href="https://github.com/dipanshubhanot/SudokuAlgoXJava"><i
-                    class="fab fa-github"></i></a></li>
+              <li><strong>Project Specification </strong> : <a href="assets/docs/doa_a1_spec.pdf">Click here</a></li>
+              <li><strong>Code</strong>: Due to University Policy, the code cannot be disclosed on open source</li>
+              <li><strong>To view screenshots of the application, kinldy explore the images.</strong></li>
+              <li><strong>All tasks were to be performed in Linear Time Complexity</strong></li>
             </ul>
 
-            <p>Dancing Links are a modification of doubly-linked lists, essentially making them quadruply linked lists,
-              which display their importance in the exact cover
-              problem. In this project, I have tried to take the problem of Solving Sudoku and model it as an exact
-              cover problem in Java.</p>
             <p>
-              The predominant way of solving sudoku is using a method known as backtracking, a simple technique which
-              emulates how a human would solve the problem. However, it is highly inefficient and has $$ O(n^2) $$ But
-              with Knuth's algorithm, the complexity is shaved considerably down to almost $$ O(n) $$
+              The project was the first one in the course, which dealth with design and analysis of algorithms and
+              focused on the use of Data Structures as well. It was divided into 3 parts:
             </p>
             <p>
-              Please note that the exact cover problem is NP-complete.
+              <h4>Part 1: Desiging Validation Algorithm</h4> <br>
+              See the above specificaiton for more details. <br>
+              <br>
+              This part required us to develop an algorithm to validate or parse a mathematical expression, and if it
+              were valid, return the final result. This was accomplished using 2 stacks, one for <code>operators</code>
+              and one for <code>values</code>. As soon as we came accross an ill-formed expression, a
+              <code>NotWellFormed</code> error was raised. As and when we encountered brackets, the expression enclosed
+              in the bracket was performed and the values on the stack replaced by the result of the expression. This
+              was done <strong>recursively</strong>.
             </p>
+            <p>
+              <h4>Part 2: Deque Data Structure</h4> <br>
+              See the above specificaiton for more details. <br>
+              <br>
+              This part required us to develop and implement algorithms that performed 3 tasks when it came to the
+              <code>deque</code> structure. The tasks were: <ul>
+                <li>Reversal using Iteration</li>
+                <li>Reversal using Recursion</li>
+                <li>Splitting while maintaining stability</li>
+              </ul>
+            </p>
+            <p>
+              <h4>Part 3: Can I ski?</h4> <br>
+              See the above specificaiton for more details. <br>
+              <br>
+              This part required us to process input for a <strong>Directed Acyclic Graph (DAG)</strong> from
+              <code>stdin</code> and then determine if each node could be visited in one run.
+            </p>
+
           </div>
 
         </div>
